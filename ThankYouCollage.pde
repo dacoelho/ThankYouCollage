@@ -1,4 +1,5 @@
 //add thank you code here
+/* @pjs preload="frame2.png"; */
 PImage img;
 PImage img2;
 
@@ -6,10 +7,11 @@ void setup(){
   size(612,720);
   img=loadImage("frame2.png");
   img2=loadImage("blz2.png");
-  image(img,0,0);
+  
 }
 
 void draw(){
+image(img,0,0);
   fill(random(255),random(255),random(255));
   textAlign(CENTER);
   textSize(80);
